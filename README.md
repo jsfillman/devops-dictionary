@@ -21,7 +21,7 @@ To integrate this custom dictionary into your macOS system, follow these steps:
   Copy the contents of the LocalDictionary.txt file to your macOS LocalDictionary file:
 
    ```sh
-   cp LocalDictionary.txt >> ~/Library/Spelling/LocalDictionary
+   cat LocalDictionary.txt >> ~/Library/Spelling/LocalDictionary
    ```
 
 3. **Restart Applications.** Restart any applications where you want the custom dictionary to take effect to ensure they recognize the new terms. (Or just log out and back in!)
